@@ -16,3 +16,4 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
         <img src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_synth.jpg"></img>
         </td>
     </tr>
+</table>
