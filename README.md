@@ -9,7 +9,7 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
 <table align="center">
     <tr>
       <th>Synthetic Scene</th>
-      <th>Real Captured Scene</th>
+      <th>Raw Captured Scene</th>
     </tr>
     <tr>
         <td>
