@@ -1,10 +1,3 @@
-% ===============================
-% == Computational Photography ==
-% =====    and Capture   ========
-% ====  Project - Part 1/2 ======
-% ======== Hugo GERMAIN =========
-% ===============================
-
 clear all; close all; clc;
 
 % =======================================================
@@ -14,8 +7,8 @@ provided_data = 0; % To use the provided real data
 folder = 'notebook_T1'; ext = 'png';
 % =======================================================
 
-if(own_data) 
-    % Choose either 'shoe_T1' or 'bathroom_T1' : 
+if(own_data)
+    % Choose either 'shoe_T1' or 'bathroom_T1' :
     folder = 'shoe_T1'; ext = 'jpg';
 end
 

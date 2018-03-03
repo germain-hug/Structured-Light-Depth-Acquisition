@@ -1,15 +1,6 @@
-% ===============================
-% == Computational Photography ==
-% =====    and Capture   ========
-% ====  Project - Part 1/2 ======
-% ======== Hugo GERMAIN =========
-% ===============================
-
 % This file performs the Camera/Projector Calibration
 
-
 function CALIBRATION
-
 
 % ------ Camera Reprojection
 clear all; close all; clc;
@@ -21,7 +12,7 @@ clear all; close all; clc;
         path = strcat('calibration/000',num2str(l+1),'_reprojected.png');
         reproject_image(I_0, I_1, 1024, 768, 378,277, 270, path, true);
     end
-    
+
     % Real (provided) Scenes
     for l=1:9
         I_0 = imread(strcat('real_calibration/IMG_932',num2str(l),'.jpg'));
@@ -29,7 +20,7 @@ clear all; close all; clc;
         path = strcat('real_calibration/IMG_932',num2str(l),'_reprojected.jpg');
         reproject_image(I_0, I_1, 1024, 768, 518,120, 299, path, true);
     end
-    
+
     % Real (shot) Scenes
     for l=1:5
         I_0 = imread(strcat('own_calibration/IMG_124',num2str(l+1),'.jpg'));
@@ -91,7 +82,7 @@ imwrite(I_1_out,path);
 % subplot(2,2,4)
 % imshow(I_1_out); title('Reprojected Checkerboard Image');
 
-         
+
 %% ==========================================================================
 function H = calcBestHomography(pts1Cart, pts2Cart)
 
@@ -108,11 +99,10 @@ for i = 1:size(pts1Cart,2)
     A(2*i,:) = [ui,vi,1,0,0,0,-xi*ui,-xi*vi,-xi];
 end
 
-h = solveAXEqualsZero(A); 
+h = solveAXEqualsZero(A);
 H = reshape(h,[3,3])';
 
 %% ==========================================================================
 function x = solveAXEqualsZero(A)
 [~,~,V] = svd(A);
 x = V(:,end);
-
