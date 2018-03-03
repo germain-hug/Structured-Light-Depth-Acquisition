@@ -8,15 +8,15 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
 <div align="center">
 <table align="center">
     <tr>
-      <th>Synthetic Scene Reconstruction</th>
-      <th>Real (Captured) Scene Reconstruction</th>
+      <th>Synthetic Scene</th>
+      <th>Real Captured Scene</th>
     </tr>
     <tr>
         <td>
-        <img width="250" align="center" src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_synth.jpg"></img>
+        <img width="250" src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_synth.jpg"></img>
         </td>
         <td>
-        <img width="250" align="center" src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_raw.jpg"></img>
+        <img width="250" src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_raw.jpg"></img>
         </td>
     </tr>
 </table>
