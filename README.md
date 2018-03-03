@@ -8,8 +8,8 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
 <div align="center">
 <table align="center">
     <tr>
-      <th>Synthetic Scene</th>
-      <th>Real Captured Scene</th>
+      <th>Synthetic Scene Reconstruction</th>
+      <th>Real (Captured) Scene Reconstruction</th>
     </tr>
     <tr>
         <td>
