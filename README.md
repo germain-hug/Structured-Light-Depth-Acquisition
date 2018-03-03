@@ -5,7 +5,7 @@ Matlab Implementation of a 3D Reconstruction algorithm, based [High Accuracy Ste
 The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.  
 
 ## Results:  
-
+<div align="center">
 <table align="center">
     <tr>
       <th>Synthetic Scene</th>
@@ -20,3 +20,4 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
         </td>
     </tr>
 </table>
+</div>
