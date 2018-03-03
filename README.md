@@ -8,12 +8,10 @@ The full algorithm can be found in the `RECONSTRUCTION.m` Matlab file.
 
 <table>
     <tr>
-      <td>
-        Image inside Table
-      </td>
-
-      <td>
+      <th>Firstname</th>
+      <th>Lastname</th>
+    </tr>
+    <tr>
         <img src="https://raw.githubusercontent.com/germain-hug/Structured-Light-Depth-Acquisition/master/Matlab/results_synth.jpg"></img>
-      </td>
     </tr>
 </table>
